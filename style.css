@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( #22262c, #bdb1a9);
+    text-align: center;
+    background-attachment: fixed;
+
+}
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+
+}
+.profile-image {
+    margin: 0 auto 10px;
+    max-width: 100%;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header-profile{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.header-profile h1 {
+    font-size: 1em;
+
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-bottom:20px;
+}
+.links a{
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #2f6fb8;
+    color: aliceblue;
+}
+.links a:hover {
+    background-color:#60aaf8 ;
+}
+.links a:active, .social-medias svg:active{
+    transform: scale(0.90);
+}
+.links a:focus-visible{
+    background-color: #5a9fe6;;
+}
+.links a:focus, svg:focus, .social-medias a:focus{
+    outline: none;
+}
+
+.social-medias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.social-medias a{
+    padding: 10px;
+}
+.social-medias svg{
+    transition: transform 0.2s, fill 0.2s;
+    fill: white;
+}
+
+.social-medias a:focus-visible svg, svg:hover{
+    fill: #5a9fe6;
+}
+
+
