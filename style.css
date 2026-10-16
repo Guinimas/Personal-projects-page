@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient( #22262c, #bdb1a9);
+    background: radial-gradient( #1c1c1c, #272727);
     text-align: center;
     background-attachment: fixed;
 
@@ -11,8 +11,9 @@ body{
 main {
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    padding: 20px;
+    padding: 60px 20px;
 
 }
 .profile-image {
@@ -50,7 +51,7 @@ main {
     text-decoration: none;
     padding: 20px;
     border-radius: 15px;
-    background-color: #2f6fb8;
+    background-color: #e2b714;
     color: aliceblue;
 }
 .links a:hover {
@@ -68,6 +69,7 @@ main {
 
 .social-medias{
     display: flex;
+    bottom: 100px;
     justify-content: center;
     align-items: center;
     gap: 20px;
