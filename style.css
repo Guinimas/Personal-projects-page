@@ -4,6 +4,7 @@
 }
 body{
     background: radial-gradient( #1c1c1c, #272727);
+    font-family: "Google Sans Flex", Arial;
     text-align: center;
     background-attachment: fixed;
 
@@ -45,6 +46,8 @@ main {
     display: flex;
     flex-direction: column;
     gap:15px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
     margin-bottom:20px;
 }
 .links a{
